@@ -1,5 +1,7 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
+**You should not edit the HTML file or any of the actual styles in the CSS**.
+
+body{
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .para,
@@ -8,7 +10,7 @@ body {
   font-weight: 800;
 }
 
-.small-para {
+#small-para {
   font-size: 14px;
   font-weight: 800;
 }
@@ -17,25 +19,25 @@ body {
   font-size: 22px;
 }
 
-.confirm {
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
 } 
 
-.button {
+button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
-.child {
+.text .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
 
-div.text {
+.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
